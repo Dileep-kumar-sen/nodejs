@@ -12,9 +12,9 @@ class UseraddController extends Controller
     public function createuser(Request $request)
     {
         $users=User::create([
-            'name'=>'jai hind jai bharat',
-            'email'=>'this is best option for you',
-            'password'=>Hash::make('nice to work')
+            'name'=>'Dileep Kumar sen',
+            'email'=>'sendileep559@gmail.com',
+            'password'=>Hash::make('Dileep@123')
         ]);
         return response()->json([
         'Message'=>200,

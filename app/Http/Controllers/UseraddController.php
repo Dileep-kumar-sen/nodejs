@@ -12,7 +12,7 @@ class UseraddController extends Controller
     public function createuser(Request $request)
     {
         $users=User::create([
-            'name'=>'Dileep Kumar sen',
+            'name'=>'teacher',
             'email'=>'sendileep559@gmail.com',
             'password'=>Hash::make('Dileep@123')
         ]);
